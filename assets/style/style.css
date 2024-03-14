@@ -1,0 +1,138 @@
+@font-face {
+    font-family: breaking;
+    src: url(../font/Heart\ Breaking\ Bad.otf);
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-image: url(../img/wallpaper/imprint-hand-fabric.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;   
+}
+
+.text span {
+    font-size: 24px;
+    padding: 0 10px;
+    
+    text-transform: uppercase;
+    color: #fff;
+    animation: zoomup 5s linear infinite;
+    animation-delay: calc(200ms * var(--i));
+    
+  }
+  
+  @keyframes zoomup {
+    0%,
+    100% {
+      color: #f30c3e;
+      filter: blur(1px);
+      text-shadow: 0 0 10px #f30c3e, 0 0 20px #f30c3e, 0 0 30px #f30c3e,
+        0 0 40px #f30c3e, 0 0 60px #f30c3e, 0 0 80px #f30c3e, 0 0 100px #f30c3e,
+        0 0 120px #f30c3e;
+    }
+  
+    5%,
+    95% {
+      filter: blur(0);
+      color: beige;
+      text-shadow: none;
+    }
+  }
+  .text_m {
+    font-family: breaking;
+  }
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top: -14px;
+    min-width: 100%;
+    min-height: 100vh;
+    opacity: 0.8;
+}
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    
+}
+  
+  /* Style the button used to pause/play the video */
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+
+  .card {
+  /* From https://css.glass */
+    background: none !important;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(243, 243, 243, 0.13) !important;
+    border: none;
+}
+
+.text-body-secondary {
+    color: beige !important;
+    width: 100%;
+    /* padding-left: 28px; */
+
+}
+.description {
+    font-size: 20px;
+    color: #000000;
+}
+.head_line {
+    font-family: breaking, sans-serif;
+    font-size: 100px;
+    color: beige;
+}
+.card-title {
+    font-family: breaking, sans-serif !important;
+    font-size: 40px;
+    font-weight: 500;
+    color: beige;
+}
+.carousel {
+    overflow: hidden;
+}
+.list-group-item {
+    color: beige;
+    font-weight: 600;
+}
+span {
+    font-weight: 600;
+    color: beige;
+    float: right;
+}
+.most {
+    color: beige;
+}
+
+@media screen and (max-width: 768px) {
+    .head_line {
+        font-size: 50px;
+        margin-top: 22px;
+    }
+}
