@@ -135,4 +135,11 @@ span {
         font-size: 50px;
         margin-top: 22px;
     }
+    body {
+      background-image: url(../img/wallpaper/imprint-hand-fabric.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed; 
+    }
 }
