@@ -142,4 +142,8 @@ span {
       background-position: center;
       background-attachment: fixed; 
     }
+    .text span {
+      font-size: 18px;
+      padding: 0 12px;
+    }
 }
