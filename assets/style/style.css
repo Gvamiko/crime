@@ -92,9 +92,10 @@ body {
     -webkit-backdrop-filter: blur(4px);
     border: 1px solid rgba(243, 243, 243, 0.13) !important;
     border: none;
-    /* height: 440px; */
+    height: 570px;
     /* margin-top: 100px; */
 }
+
 
 .text-body-secondary {
     color: beige !important;
