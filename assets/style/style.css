@@ -65,18 +65,20 @@ body {
   height: 50px;
   transition: 0.6s;
   border-radius: 100px;
+  filter: blur(1.5px);
 }
 .image:hover {
   margin-left:-130px;
   width: 300px;
   height: 300px;
   border-radius: 20px;
+  filter: blur(0);
 }
 
 .text-body-secondary {
     color: beige !important;
     width: 100%;
-    word-break: break-all;
+    /* word-break: break-all; */
     /* padding-left: 28px; */
 
 }
@@ -93,13 +95,24 @@ body {
 .head_linee {
   position: fixed;
   width: 100%;
+  
 }
 .card-title {
-    font-family: breaking, sans-serif !important;
-    font-size: 40px;
-    font-weight: 500;
-    color: beige;
+  font-family: breaking, sans-serif !important;
+  font-size: 40px;
+  font-weight: 500;
+  color: beige;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px rgb(255, 0, 4),
+      0 0 82px rgb(255, 0, 4),
+      0 0 92px rgb(255, 0, 4),
+      0 0 102px rgb(255, 0, 4),
+      0 0 151px rgb(255, 0, 4);
 }
+
 .carousel {
     overflow: hidden;
 }
